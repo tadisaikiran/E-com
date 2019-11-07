@@ -1,0 +1,21 @@
+.form-control{
+    font-size:14px;
+    height: 34px;
+}
+/* .input-group-addon{
+    padding: 6px 25px 6px 12px;
+} */
+.form-group{
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    margin-right: 0px;
+    margin-left: 0px;
+}

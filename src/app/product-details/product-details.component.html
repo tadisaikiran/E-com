@@ -1,0 +1,25 @@
+<div class="col-md-4 product">
+    <figure *ngIf="product" class="card card-product">
+      <div class="img-wrap"> <img src="" />
+        <a class="btn-overlay" href="#">
+        <i class="fa fa-search-plus"></i> Product Image</a>
+      </div>
+      <figcaption class="info-wrap">
+        <h6 class="title text-dots"><a href="#">{{product.Name}}</a></h6>
+        <div class="action-wrap">
+          <div class="price-wrap h5">
+            <span class="price-new">{{product.Price|currency}}</span>
+          </div> 
+        </div> 
+      </figcaption>
+    </figure>
+  </div> 
+  <div class="col-md-4">
+      <div class="action-wrap">
+          <button *ngIf = "showAddToCart" (click)="addToCart(product)" class="btn btn-primary btn-md float-right"> Add to cart </button>
+        </div> 
+        <div *ngIf="!showAddToCart" class="action-wrap">
+            <button [routerLink]="['/products']" class="btn btn-primary btn-md float-right browse-btn"> Browse more </button>
+            <button [routerLink]="['/cart']" class="btn btn-primary btn-md float-right"> Go to cart </button>
+          </div>
+  </div>

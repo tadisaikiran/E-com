@@ -1,0 +1,110 @@
+{
+    "products": [
+        {
+            "Id":1,
+            "Name":"product 1",
+            "Price":10,
+            "Quantity":5
+        },
+        {
+            "Id":2,
+            "Name":"product 2",
+            "Price":10,
+            "Quantity":5
+        },
+        {
+            "Id":3,
+            "Name":"product 3",
+            "Price":10,
+            "Quantity":5
+        },
+        {
+            "Id":4,
+            "Name":"product 4",
+            "Price":10,
+            "Quantity":5
+        },
+        {
+            "Id":5,
+            "Name":"product 5",
+            "Price":10,
+            "Quantity":5
+        },
+        {
+            "Id":6,
+            "Name":"product 6",
+            "Price":10,
+            "Quantity":5
+        },
+        {
+            "Id":7,
+            "Name":"product 7",
+            "Price":10,
+            "Quantity":5
+        },
+        {
+            "Id":8,
+            "Name":"product 8",
+            "Price":10,
+            "Quantity":5
+        },
+        {
+            "Id":9,
+            "Name":"product 9",
+            "Price":10,
+            "Quantity":5
+        },
+        {
+            "Id":11,
+            "Name":"product 11",
+            "Price":10,
+            "Quantity":5
+        },
+        {
+            "Id":22,
+            "Name":"product 22",
+            "Price":10,
+            "Quantity":5
+        },
+        {
+            "Id":33,
+            "Name":"product 33",
+            "Price":10,
+            "Quantity":5
+        },
+        {
+            "Id":44,
+            "Name":"product 44",
+            "Price":10,
+            "Quantity":5
+        },
+        {
+            "Id":55,
+            "Name":"product 55",
+            "Price":10,
+            "Quantity":5
+        }
+    ],
+    "users":[
+        {
+            "Username":"user1",
+            "Password":123123,
+            "userType":"user"
+        },
+        {
+            "Username":"user2",
+            "Password":345234,
+            "userType":"user"
+        },
+        {
+            "Username":"admin",
+            "Password":"admin",
+            "userType":"admin"
+        },
+        {
+            "Username":"user3",
+            "Password":342342,
+            "userType":"user"
+        }
+    ]
+}

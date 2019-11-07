@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="col-md-4 product">
+    <div class="col-md-12 product" *ngFor="let product of cartItems">
+      <figure *ngIf="product" class="card card-product">
+        <div class="img-wrap"> <img src="" />
+          <a class="btn-overlay" href="#">
+            <i class="fa fa-search-plus"></i> Product Image</a>
+        </div>
+        <figcaption class="info-wrap">
+          <h6 class="title text-dots"><a href="#">{{product.Name}}</a></h6>
+          <div class="action-wrap">
+            <!-- <a href="#" class="btn btn-primary btn-sm float-right"> Order </a> -->
+            <div class="price-wrap h5">
+              <span class="price-new">{{product.Price|currency}}</span>
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="col-md-3">
+      <div class="action-wrap buy-btn">
+          <button (click)="goToSuccess()" class="btn btn-primary btn-lg float-right"> Buy now </button>
+        </div>
+  </div>
+</div>
